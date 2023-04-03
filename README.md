@@ -17,6 +17,14 @@ First run the node_modules instalation
 yarn install
 ```
 
+Create .env file in root folder with
+
+```bash
+NEXT_PUBLIC_MY_REDIRECT_URI=http://localhost:3000/api/dropbox
+NEXT_PUBLIC_MY_URI=http://localhost:3000
+NEXT_PUBLIC_APP_KEY=l4ldhc6hphho3wj
+NEXT_PUBLIC_APP_SECRET=n90flzwz39ly5jq
+```
 
 Then run the development server:
 
